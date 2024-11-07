@@ -21,4 +21,3 @@ int main(){
   cout<<"the reverse of the given number is : "<<f<<endl;
  return 0;
 }
-
