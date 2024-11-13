@@ -6,10 +6,3 @@ char conver(char name){
   return ans ;
 }
 
-int main(){
-  char name ;
-  cout<<"Enter a character by ur choice : ";
-  cin>>name;
-
-  cout<<conver(name);
-}
