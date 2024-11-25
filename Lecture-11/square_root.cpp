@@ -1,3 +1,4 @@
+#include <stdio.h>
  int reverse(int x) {
         int ans =0 ,rem;
         while(x !=0){
