@@ -1,6 +1,4 @@
-#include<iostream>
-#include<vector>
-using namespace std;
+
 
 int findKthPositive(vector<int>& arr, int k) {
         int start =0 ,end = arr.size()-1 ,ans = arr.size();
