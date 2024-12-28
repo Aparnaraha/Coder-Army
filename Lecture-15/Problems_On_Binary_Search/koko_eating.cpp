@@ -26,3 +26,10 @@ int minEatingSpeed(vector<int>& arr, int h) {
     return ans;
 }
 
+int main() {
+    vector<int> piles = {3, 6, 7, 11};
+    int h = 8;
+    int result = minEatingSpeed(piles, h);
+    cout << "Minimum eating speed: " << result << endl;
+    return 0;
+}
