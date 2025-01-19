@@ -21,7 +21,19 @@ using namespace std;
 
      //    for last occurance 
 
-    
+     start =0, end =n-1;
+    while(start <= end ){
+        mid = start +(end - start)/2;
+        if(nums[mid] == target){
+            last = mid;
+            start = mid + 1;
+        }
+        else if(nums[mid] < target){
+            start = mid+1;
+        }
+        else{
+            end =mid -1;
+        }
     }
     
     if(first != -1 && last != -1){
