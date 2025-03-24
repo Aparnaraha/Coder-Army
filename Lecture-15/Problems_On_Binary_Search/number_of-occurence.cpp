@@ -54,10 +54,5 @@ int count(int nums[], int n, int target)
 
 int main()
 {
-    int n = 6;
-    int arr[] = {1, 4, 4, 4, 8, 9};
-    int target = 4;
-    int ans = count(arr, n, target);
 
-    cout << ans << " ";
 }
