@@ -2,7 +2,27 @@
 using namespace std;
 
 int count(int nums[], int n, int target)
+{
+    int start = 0, end = n - 1, mid, first = -1, last = -1;
 
+    //    for first occurance
+    while (start <= end)
+    {
+        mid = start + (end - start) / 2;
+        if (nums[mid] == target)
+        {
+            first = mid;
+            end = mid - 1;
+        }
+        else if (nums[mid] < target)
+        {
+            start = mid + 1;
+        }
+        else
+        {
+            end = mid - 1;
+        }
+    }
 
     //    for last occurance
 
